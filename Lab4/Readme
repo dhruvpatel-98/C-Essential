@@ -1,0 +1,7 @@
+Welcome to CSE 3150 Lab4 
+
+To run
+
+1) g++ balanced.cpp unit_test_balanced.cpp
+
+2) g++ balanced.cpp main.cpp 
