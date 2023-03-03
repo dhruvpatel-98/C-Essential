@@ -35,8 +35,8 @@ double vector_len(double_vect v1) {
 
 double cosine_dist(double_vect v1, double_vect v2) {
     double dot = dot_prod(v1, v2);
-    double chicago = vector_len(v1) * vector_len(v2);
-    return dot / chicago;
+    double sum = vector_len(v1) * vector_len(v2);
+    return dot / sum;
 }
 
 vector <pairs> calculate_cosine_pairs(vector <double_vect> my_vector){
