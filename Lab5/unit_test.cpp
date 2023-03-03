@@ -7,11 +7,11 @@ using namespace std;
 TEST_CASE("Testing my cosine vectors program") {
     SUBCASE("doubles_vectors.txt"){
         vector <double_vect> my_vector1 = read_file("double_vectors.txt");
-        CHECK(my_vector1.size() == 9);
+        CHECK(my_vector1.size() == 10);
 
         //testing the output function
 
-        int test_id[] = {0, 1, 2, 3, 4, 5, 6, 7, 8};
+        int test_id[] = {0, 1, 2, 3, 4, 5, 6, 7, 8,9};
         double test_from[] = {.1, .2, -0.3, 0.4, 0.500, 0.6, .7, 0.8, 0.9, 1.0};
         double test_to[] = {9.9, 2.3, 99.9, 45, 8.9, 22.1, 3.14, 2.717, -55.0,3.14};
         for(int i = 0; i < my_vector1.size(); i++) {
