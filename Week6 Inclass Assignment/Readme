@@ -1,1 +1,7 @@
+To run the Weeek 6 Inclass assignment
 
+1) g++ vector_functions.cpp vector_main.cpp
+
+2) g++ vector_functions.cpp unit_test.cpp
+
+3) ./a.out
