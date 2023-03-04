@@ -1,0 +1,9 @@
+To Run the Lab3: 
+
+1) make all 
+
+2) ./unit_test
+
+3) ./main
+
+4) make clean
