@@ -1,5 +1,3 @@
-
-
 To run the Week3 Inclass Assignment: 
 
 1) g++ linked_list.cpp unit_test_list.cpp
