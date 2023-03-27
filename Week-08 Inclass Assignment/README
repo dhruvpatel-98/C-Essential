@@ -1,1 +1,7 @@
+CSE3150 C++ Essential 
 
+To run the In Class assignment Week8
+
+g++ graph.cpp unit_test.cpp
+
+./a.out
